@@ -14,6 +14,10 @@ max_node_info:
     ipmiIp: "192.168.2.41"
     ipmiUser: "ADMIN"
     ipmiPass: "ADMIN"
+    cephMonIp: "192.168.2.41"
+    cephMonUser: "root"
+    cephMonPass: "ffffff"
+    cephMonPort: "22"
   
   node_2: 
     mgmtIp: "192.168.1.42"
@@ -29,6 +33,10 @@ max_node_info:
     ipmiIp: "192.168.2.42"
     ipmiUser: "ADMIN"
     ipmiPass: "ADMIN"
+    cephMonIp: "192.168.2.42"
+    cephMonUser: "root"
+    cephMonPass: "ffffff"
+    cephMonPort: "22"
 
   node_3: 
     mgmtIp: "192.168.1.43"
@@ -44,3 +52,7 @@ max_node_info:
     ipmiIp: "192.168.2.43"
     ipmiUser: "ADMIN"
     ipmiPass: "ADMIN"
+    cephMonIp: "192.168.2.43"
+    cephMonUser: "root"
+    cephMonPass: "ffffff"
+    cephMonPort: "22"
