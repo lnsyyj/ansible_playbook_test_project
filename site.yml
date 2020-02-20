@@ -1,0 +1,7 @@
+---
+
+- hosts: variable-test
+  roles:
+    - variable-test
+  tags: maxcntag-variable-test
+
