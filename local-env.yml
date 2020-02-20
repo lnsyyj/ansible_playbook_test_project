@@ -1,12 +1,12 @@
 
 max_node_info:
   node_1: 
-    xcmgmt: "192.168.1.41"
-    xcxcpublic: "192.168.2.41"
-    xcmigrate: "10.0.1.41"
-    xccluster: "10.0.0.41"
-    systemUser: "root"
-    systemctlPassword: "ffffff"
+    mgmtIp: "192.168.1.41"
+    xcPublicIp: "192.168.2.41"
+    xcMigrateIp: "10.0.1.41"
+    xcClusterIp: "10.0.0.41"
+    mgmtUser: "root"
+    mgmtPass: "ffffff"
     cpuOverUseFactor: "3"
     cpuOverRunFactor: "1.5"
     memOverUseFactor: "3"
@@ -16,12 +16,12 @@ max_node_info:
     ipmiPass: "ADMIN"
   
   node_2: 
-    xcmgmt: "192.168.1.42"
-    xcxcpublic: "192.168.2.42"
-    xcmigrate: "10.0.1.42"
-    xccluster: "10.0.0.42"
-    systemUser: "root"
-    systemctlPassword: "ffffff"
+    mgmtIp: "192.168.1.42"
+    xcPublicIp: "192.168.2.42"
+    xcMigrateIp: "10.0.1.42"
+    xcClusterIp: "10.0.0.42"
+    mgmtUser: "root"
+    mgmtPass: "ffffff"
     cpuOverUseFactor: "3"
     cpuOverRunFactor: "1.5"
     memOverUseFactor: "3"
@@ -29,14 +29,14 @@ max_node_info:
     ipmiIp: "192.168.2.42"
     ipmiUser: "ADMIN"
     ipmiPass: "ADMIN"
-  
+
   node_3: 
-    xcmgmt: "192.168.1.43"
-    xcxcpublic: "192.168.2.43"
-    xcmigrate: "10.0.1.43"
-    xccluster: "10.0.0.43"
-    systemUser: "root"
-    systemctlPassword: "ffffff"
+    mgmtIp: "192.168.1.43"
+    xcPublicIp: "192.168.2.43"
+    xcMigrateIp: "10.0.1.43"
+    xcClusterIp: "10.0.0.43"
+    mgmtUser: "root"
+    mgmtPass: "ffffff"
     cpuOverUseFactor: "3"
     cpuOverRunFactor: "1.5"
     memOverUseFactor: "3"
@@ -44,4 +44,3 @@ max_node_info:
     ipmiIp: "192.168.2.43"
     ipmiUser: "ADMIN"
     ipmiPass: "ADMIN"
-
