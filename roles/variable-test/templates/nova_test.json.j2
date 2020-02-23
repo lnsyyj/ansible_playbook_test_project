@@ -1,0 +1,36 @@
+
+{# jinja2 macro #}
+# test 1
+{% macro func_1(name, age=18) %}
+  name="{{ name }}",
+  value="{{ age }}"
+{% endmacro %}
+
+{# call jinja2 macro #}
+# test 1
+{{ func_1("yujiang", "19") }}
+
+{# #}
+# test 2
+{% for i in max_node_info %}
+  {{ i }},
+{% endfor %}
+
+{# #}
+# test 3
+{% for i in max_node_info %}
+{% if loop.index0 == 0 %}
+  {{ i }}
+{% endif %}
+{% endfor %}
+
+{# #}
+# test 4
+{% for i in max_node_info %}
+{% if loop.index0 == 0 %}
+  {{ i }}
+{% endif %}
+{% for j in groups['variable-test'] %}
+  {{ j }}
+{% endfor %}
+{% endfor %}

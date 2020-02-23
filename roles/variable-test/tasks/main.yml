@@ -3,6 +3,13 @@
 
 - name: dictionary test 1
   debug:
-    msg: "{{ max_node_info }}"
+    msg: "{{ ansible_hostname }}"
 
+- name: hostvars test
+  debug:
+    msg: "{{ groups['variable-test'][0] }}"
 
+- name: template test
+  template:
+    src: "nova_test.json.j2"
+    dest: "/root/nova_test.json"
